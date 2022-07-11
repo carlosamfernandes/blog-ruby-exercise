@@ -10,6 +10,8 @@
                   } %></li>
 </ul>
 
+This article has <%= Article.comments.public_count %> comments!
+
 <h2>Comments</h2>
 <%= render @article.comments %>
 
